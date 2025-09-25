@@ -8,7 +8,7 @@ const HomePage = () => {
    const {selectedUser} = useContext(ChatContext)
 
   return (
-    <div className="w-full h-screen sm:px-[15%] sm:py-[5%] bg-[url('./src/assets/luffy_bg.jpg')] bg-cover">
+    <div className="w-full h-screen sm:px-[15%] sm:py-[5%] bg-[url('/luffy_bg.jpg')] bg-cover">
       <div
         className={`backdrop-blur-xl border-2 border-gray-600 rounded-2xl
         overflow-hidden h-full relative grid 

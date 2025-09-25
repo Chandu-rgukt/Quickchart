@@ -30,7 +30,7 @@ const ProfilePage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-[url('./src/assets/wanted.jpg')] bg-cover flex items-center justify-center p-4">
+    <div className="min-h-screen bg-[url('/wanted.jpg')] bg-cover flex items-center justify-center p-4">
       <div className="w-full max-w-2xl bg-[rgba(80, 5, 161, 0.95)] text-yellow-400 border-4 border-red-500 flex items-center justify-between max-sm:flex-col-reverse rounded-2xl shadow-[0_0_30px_rgba(255,0,0,0.5)]">
         
         {/* Form Section */}

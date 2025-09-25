@@ -26,7 +26,7 @@ const LoginPage = () => {
  }
 
   return (
-    <div className='min-h-screen bg-[url("./src/assets/luffy_bg.jpg")] bg-cover bg-center bg-fixed flex items-center justify-center gap-8 sm:justify-evenly max-sm:flex-col p-4'>
+    <div className='min-h-screen bg-[url("/luffy_bg.jpg")] bg-cover bg-center bg-fixed flex items-center justify-center gap-8 sm:justify-evenly max-sm:flex-col p-4'>
 
   {/* Logo & Heading */}
   <div className="text-center">
