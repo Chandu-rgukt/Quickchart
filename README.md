@@ -4,14 +4,21 @@ Ahoy! Welcome to **Straw Hat Chat** — a pirate-themed real-time chat applicati
 
 ---
 
-## 🌟 Highlights
-
-- Real-time messaging with Socket.IO
-- Image sharing via Cloudinary
-- User profiles with avatars and bios
-- Online presence and typing indicators
-- Unread message badges and conversation list
-- Responsive, One Piece–themed UI (desktop & mobile)
+## 🌟 Any assumptions or limitations
+ - Only the channel creator can remove members or delete a channel.
+ - Images are stored as Base64, not cloud storage (not optimized for large images).
+ - No read receipts for channel messages. - No typing indicators.
+ - Online status is based on active socket connections.
+ - Application is intended for local/demo use, not production-load traffic.
+ - 
+# # Optional features implemented (if any)
+- Image messaging (DM + channels)
+- Infinite scroll for older messages
+ - Add members to channel
+- Remove/Kick members (creator only)
+- Leave channel - Delete channel (creator only)
+- Online/offline presence indicator
+- Mobile-responsive UI
 
 ---
 
